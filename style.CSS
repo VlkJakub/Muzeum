@@ -1,0 +1,27 @@
+.container {width:1200px;margin:0 auto;}
+.red {border: 1px solid red;}
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#top{
+    min-height: 150px;
+    background-color:rgb(180, 180, 180);
+}
+#slider{
+    min-height: 500px; height: auto;
+    background-color: rgb(240, 240, 240);
+}
+#footer{
+    min-height: 100px;
+    background-color:rgb(180, 180, 180);
+}
+#main{
+    min-height: 100px;
+    background-color: rgb(240, 240, 240);
+}
